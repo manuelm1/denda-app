@@ -1,0 +1,53 @@
+{
+  "name": "denda-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/admin-graphql-api-utilities": "0.0.2",
+    "@shopify/app-bridge": "^0.8.0",
+    "@shopify/koa-shopify-auth": "^3.1.5",
+    "@shopify/koa-shopify-graphql-proxy": "^2.1.2",
+    "@shopify/polaris": "^3.0.1",
+    "@shopify/react-shopify-app-route-propagator": "^1.0.13",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.1.17",
+    "async": "^2.6.1",
+    "cookie": "^0.3.1",
+    "css-loader": "^1.0.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.5.3",
+    "koa-better-http-proxy": "^0.2.4",
+    "koa-proxies": "^0.7.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "next": "^7.0.2",
+    "next-apollo": "^2.0.0",
+    "nonce": "^1.0.4",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.6.1",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.5.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "store": "^2.0.12",
+    "store-js": "^2.0.4",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
